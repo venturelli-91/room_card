@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+.apartment {
+	@apply font-bold text-3xl font-sans text-center my-6;
+}
+
+.star {
+	@apply text-yellow-500 text-2xl flex ml-5;
+}
+
+.full-card {
+	@apply max-w-sm mx-auto my-44 bg-white rounded-2xl shadow-md 
+    overflow-hidden transform transition-transform duration-200;
+}
+
+.full-card:hover {
+	@apply translate-y-3 translate-x-1;
+}
+
+.image {
+	@apply w-full h-48 object-cover;
+}
+
+.star-text {
+	@apply font-serif ml-5 mb-2 font-extrabold mt-1;
+}
+
+.icons {
+	@apply flex flex-row gap-10 text-gray-500 font-sans text-xs justify-center m-5;
+}
+
+.button_1 {
+	@apply bg-green-500 rounded-xl text-white font-bold w-48 m-5 p-3;
+}
+
+.button_2 {
+	@apply bg-white rounded-xl text-green-500 font-bold w-48 border border-green-700 m-5;
+}
+
+.price {
+	@apply text-3xl text-green-600 font-bold font-sans ml-5;
+}
+
+.features {
+	@apply bg-slate-200 w-full rounded-lg sm:w-14 sm:h-5 text-xs items-center p-1;
+}
+
+.description {
+	@apply text-xs text-gray-500 font-sans mt-2 text-center;
+}
