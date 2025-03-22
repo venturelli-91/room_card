@@ -30,12 +30,6 @@ O componente utiliza a arquitetura moderna do Next.js junto com a tipagem segura
   <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="TailwindCSS" width="40" height="40"/>
 </div>
 
-## 🚢 Implantação
-
-<a href="https://room-card-demo.vercel.app/" target="_blank">
-  <img src="https://logowik.com/content/uploads/images/vercel1868.jpg" alt="Vercel" width="40" height="40" style="border-radius: 50%; background-color: white;"/>
-</a>
-
 ## 🏃‍♂️ Como Executar o Projeto
 
 1. Clone este repositório:
